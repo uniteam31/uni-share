@@ -3,6 +3,7 @@ import { NoteWidget } from 'widgets/NoteWidget';
 import { UserWidget } from 'widgets/UserWidget';
 import { useNavigationStore } from 'entities/Navigation';
 import s from './HomePage.module.scss';
+import { CalendarWidget } from 'widgets/CalendarWidget';
 
 const HomePage = memo(() => {
 	const { setCurrentService } = useNavigationStore();
@@ -16,6 +17,7 @@ const HomePage = memo(() => {
 		<div className={s.HomePage}>
 			<UserWidget />
 			<NoteWidget />
+			<CalendarWidget />
 		</div>
 	);
 });
