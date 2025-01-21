@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import React, { FC, memo, useCallback } from 'react';
-import { formatDate } from 'shared/lib/formatDate/formatDate';
+import { formatDate } from 'shared/lib/formatDateTime/formatDate';
 import type { INote } from '../../model/types/note';
 import s from './ListItem.module.scss';
 
