@@ -1,4 +1,5 @@
 import React, { memo, useEffect } from 'react';
+import { CalendarWidget } from 'widgets/CalendarWidget';
 import { FriendsWidget } from 'widgets/FriendsWidget';
 import { NoteWidget } from 'widgets/NoteWidget';
 import { UserWidget } from 'widgets/UserWidget';
@@ -17,6 +18,7 @@ const HomePage = memo(() => {
 		<div className={s.HomePage}>
 			<UserWidget />
 			<NoteWidget />
+			<CalendarWidget />
 			<FriendsWidget />
 		</div>
 	);

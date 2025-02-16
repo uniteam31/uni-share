@@ -1,6 +1,7 @@
 import { CSSProperties, ReactNode } from 'react';
 // eslint-disable-next-line @conarti/feature-sliced/layers-slices
 import { Path } from 'app/providers/AppRouter';
+import CalendarIcon from 'shared/assets/icons/calendar.svg';
 import FriendsIcon from 'shared/assets/icons/friends.svg';
 import NoteIcon from 'shared/assets/icons/note.svg';
 
@@ -28,4 +29,8 @@ export const MODULES: Record<Path, TModuleItem> = {
 		name: 'Друзья',
 		Icon: <FriendsIcon style={baseIconStyles} />,
 	},
+	['/calendar']: {
+		name: 'Календарь',
+		Icon: <CalendarIcon style={baseIconStyles} />,
+	}
 };

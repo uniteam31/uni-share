@@ -3,4 +3,8 @@ export type TMeta = {
 	_id: number;
 	createdAt: string;
 	updatedAt: string;
+	owner?: {
+		id: string;
+	};
+	// TODO Добавить информацию об создателе, времени создания, последнего редакта, нахождения в спейсах и обсудить
 };

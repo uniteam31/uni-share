@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React from 'react';
 import TrashIcon from 'shared/assets/icons/trash.svg';
-import { formatDate } from 'shared/lib/formatDate/formatDate';
+// import { formatDate } from 'shared/lib/formatDateTime/formatDate';
 import { INote } from '../../model/types/note';
 import { TextArea } from '../TextArea/TextArea';
 import { TitleInput } from '../TitleInput/TitleInput';
